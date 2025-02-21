@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -66,6 +66,17 @@
             margin-top: 20px;
         }
     </style>
+    <script>
+        // Interacción por clic en imágenes con mensaje motivacional
+        document.addEventListener("DOMContentLoaded", function() {
+            const images = document.querySelectorAll("img");
+            images.forEach(function(img) {
+                img.addEventListener("click", function() {
+                    alert("¡Sigue adelante! Cada día es una nueva oportunidad para mejorar 💪");
+                });
+            });
+        });
+    </script>
 </head>
 <body>
     <header>El Gym: Mi Hobby</header>
